@@ -31,6 +31,7 @@ Click OK to remove duplicates.
 
 
 ✅ 3. Standardize Text Values
+
 Objective: Clean inconsistent capitalization and spacing in text columns like STATUS, PRODUCTLINE, and COUNTRY.
 Steps: 
 - Standardizing status column - TRIM() removes leading/trailing spaces.
@@ -41,6 +42,7 @@ LOWER() converts text to lowercase (e.g., "Shipped" → "shipped").
 - CONCATENATE() Merging of 2 functions 
 
 ✅ 4. Convert Date Formats
+
 Objective: Make all date entries follow a consistent format (dd-mm-yyyy).
 Steps:
 -Select the ORDERDATE column.
@@ -48,6 +50,7 @@ Steps:
 -Set the Custom format as: dd-mm-yyyy
 
 ✅ 5. Rename Column Headers
+
 Objective: Ensure column names are clean, lowercase, and without spaces.
 Steps:
 -Manually rename the headers in Row 1.
@@ -55,6 +58,7 @@ Steps:
 -Remove special characters or extra whitespace.
 
 ✅ 6. Check and Fix Data Types
+
 Objective: Ensure numerical, date, and text columns are using the correct data types.
 Steps:
 Use =ISNUMBER(), =ISTEXT(), or =ISDATE() 
